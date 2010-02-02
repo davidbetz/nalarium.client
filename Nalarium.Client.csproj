@@ -130,22 +130,7 @@
     <EmbeddedResource Include="_Resource\_Manual\WebUIValidation.js" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="_Resource\JQuery\jquery-1.3.2-minimized.js" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="_Resource\JQuery\jquery.json-1.3-minimized.js" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="_Resource\JQuery\jquery.json-1.3.js" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="_Resource\JQuery\Binder.js" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="_Resource\Prototype\prototype-1.6.0.3-minimized.js" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="_Resource\Prototype\prototype-1.6.0.3.js" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resource.resx">
@@ -155,14 +140,7 @@
     <EmbeddedResource Include="_Resource\Prototype\Binder.js" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="_Resource\JQuery\jquery-1.3.2.js" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Nalarium.snk" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="_Resource\JQuery\jquery-1.4.js" />
-    <EmbeddedResource Include="_Resource\JQuery\jquery-1.4.min.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

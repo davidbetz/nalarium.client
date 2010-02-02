@@ -8,7 +8,6 @@
 //+ http://www.microsoft.com/opensource/licenses.mspx.
 #endregion
 using System;
-using System.Runtime.Serialization;
 //+
 namespace Nalarium.Client
 {

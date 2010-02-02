@@ -36,12 +36,3 @@ using System.Web.UI;
 //+
 [assembly: WebResource("Nalarium.Client._Resource.Prototype.Binder.js", "text/javascript")]
 [assembly: WebResource("Nalarium.Client._Resource.JQuery.Binder.js", "text/javascript")]
-//+
-[assembly: WebResource("Nalarium.Client._Resource.JQuery.jquery.json-1.3.js", "text/javascript")]
-[assembly: WebResource("Nalarium.Client._Resource.JQuery.jquery.json-1.3-minimized.js", "text/javascript")]
-[assembly: WebResource("Nalarium.Client._Resource.JQuery.jquery-1.3.2.js", "text/javascript")]
-[assembly: WebResource("Nalarium.Client._Resource.JQuery.jquery-1.3.2-minimized.js", "text/javascript")]
-[assembly: WebResource("Nalarium.Client._Resource.JQuery.jquery-1.4.js", "text/javascript")]
-[assembly: WebResource("Nalarium.Client._Resource.JQuery.jquery-1.4-minimized.js", "text/javascript")]
-[assembly: WebResource("Nalarium.Client._Resource.Prototype.prototype-1.6.0.3-minimized.js", "text/javascript")]
-[assembly: WebResource("Nalarium.Client._Resource.Prototype.prototype-1.6.0.3.js", "text/javascript")]

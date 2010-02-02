@@ -10,7 +10,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web.UI;
 using System.Web.UI.HtmlControls;
 //+
 using Nalarium.Web;
@@ -61,10 +60,6 @@ namespace Nalarium.Client
         }
         public ClientController Framework(String framework)
         {
-            //if (framework.Equals(Nalarium.Client.Framework.NotSet))
-            //{
-            //    return this;
-            //}
             if (!String.IsNullOrEmpty(_framework))
             {
                 throw new InvalidOperationException(Resource.ClientManager_FrameworkAlreadySet);

@@ -8,10 +8,7 @@
 //+ http://www.microsoft.com/opensource/licenses.mspx.
 #endregion
 using System;
-using System.Collections.Generic;
-using System.Web.UI;
 //+
-using Nalarium.Client.Configuration;
 //+
 namespace Nalarium.Client.Provider
 {
@@ -62,41 +59,11 @@ namespace Nalarium.Client.Provider
                               .ResourceName("Nalarium.Client._Resource._Abstract.AjaxLoader.js")
                               .ScriptPriority(ScriptPriority.Required)
             );
-            //scriptCatalog.ScriptResourceList.Add(new ScriptResource
-            //{
-            //    ScriptType = type,
-            //    ResourceName = "Nalarium.Client._Resource._Abstract.WCF.js",
-            //    ScriptPriority = ScriptPriority.Required
-            //});
         }
 
         //- #AddBinderData -//
         protected virtual void AddBinderData(ScriptCatalog scriptCatalog)
         {
         }
-
-        ////- #AddAspNetWebFormScriptData -//
-        //protected void AddAspNetWebFormScriptData(ScriptCatalog scriptCatalog)
-        //{
-        //    foreach (NativeScriptExtractionElement nativeScriptExtractionElement in ClientSection.GetConfigSection().NativeScriptExtractions)
-        //    {
-        //        if (nativeScriptExtractionElement.Name.Equals("WebForms.js", StringComparison.InvariantCultureIgnoreCase))
-        //        {
-        //            scriptCatalog.ScriptResourceList.Add(new ScriptResource
-        //            {
-        //                ScriptType = _type,
-        //                ResourceName = "Nalarium.Client._Resource._Manual.WebForm.js"
-        //            });
-        //        }
-        //        else if (nativeScriptExtractionElement.Name.Equals("WebUIValidation.js", StringComparison.InvariantCultureIgnoreCase))
-        //        {
-        //            scriptCatalog.ScriptResourceList.Add(new ScriptResource
-        //            {
-        //                ScriptType = _type,
-        //                ResourceName = "Nalarium.Client._Resource._Manual.WebUIValidation.js"
-        //            });
-        //        }
-        //    }
-        //}
     }
 }

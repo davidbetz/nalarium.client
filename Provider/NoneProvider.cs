@@ -8,10 +8,7 @@
 //+ http://www.microsoft.com/opensource/licenses.mspx.
 #endregion
 using System;
-using System.Collections.Generic;
-using System.Web.UI;
 //+
-using Nalarium.Client.Configuration;
 //+
 namespace Nalarium.Client.Provider
 {

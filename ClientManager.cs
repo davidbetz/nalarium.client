@@ -8,10 +8,6 @@
 //+ http://www.microsoft.com/opensource/licenses.mspx.
 #endregion
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web.UI;
-using System.Web.UI.HtmlControls;
 //+
 using Nalarium.Web;
 //+
