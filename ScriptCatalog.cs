@@ -213,6 +213,7 @@ namespace Nalarium.Client
                     ScriptResourceList.ForEach(p => Http.Page.ClientScript.RegisterClientScriptResource(p.ScriptType(), p.ResourceName()));
                     ScriptIncludeList.ForEach(p => Http.Page.ClientScript.RegisterClientScriptInclude(p.Path(), p.Path()));
                     leftover = GetNonVolatileData(this) + "\n" + volatileData;
+                    Http.Page.ClientScript.RegisterClientScriptBlock(_type, "AdHoc", CreateScriptWrapElement(leftover));
                 }
                 else
                 {
