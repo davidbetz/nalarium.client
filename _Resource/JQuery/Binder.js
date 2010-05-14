@@ -26,12 +26,7 @@ Nalarium.JQuery.Binder = (function( ) {
                     contentType: 'application/json',
                     success: function(r) {
                         if(typeof _onSuccess != 'undefined') {
-                            if(!!params.parseJSON == true) {
-                                _onSuccess(r);
-                            }
-                            else {
-                                _onSuccess(r.d);
-                            }
+                            _onSuccess(r);
                         }
                     },
                     error: params.onFailure || Nalarium.WCF.globalFaultHandler || function( ) { }
@@ -48,12 +43,7 @@ Nalarium.JQuery.Binder = (function( ) {
                     contentType: 'application/json',
                     success: function(r) {
                         if(typeof _onSuccess != 'undefined') {
-                            if(!!params.parseJSON == true) {
-                                _onSuccess(r);
-                            }
-                            else {
-                                _onSuccess(r.d);
-                            }
+                            _onSuccess(r);
                         }
                     },
                     error: params.onFailure || Nalarium.WCF.globalFaultHandler || function( ) { }
