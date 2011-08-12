@@ -25,9 +25,9 @@ namespace Nalarium.Client
 
         //+
         //- @OutputScriptData -//
-        public String OutputScriptData()
+        public System.Web.HtmlString OutputScriptData()
         {
-            return _controller.GenerateOutput();
+            return new System.Web.HtmlString(_controller.GenerateOutput());
         }
 
         //- @Compress -//
