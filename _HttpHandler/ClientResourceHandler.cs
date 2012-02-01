@@ -30,7 +30,7 @@ namespace Nalarium.Client
             if (!System.Diagnostics.Debugger.IsAttached)
             {
                 Http.SetSlidingCache(365);
-                HttpCachePolicy cache = Response.Cache;
+                System.Web.HttpCachePolicy cache = Response.Cache;
                 cache.SetValidUntilExpires(true);
                 cache.VaryByParams["d"] = true;
                 cache.SetOmitVaryStar(true);
