@@ -3,7 +3,7 @@ using System.Configuration;
 //+
 namespace Nalarium.Client.Configuration
 {
-    public class FrameworkCollection : Nalarium.Configuration.CommentableCollection<FrameworkElement>
+    public class FrameworkCollection : Nalarium.Configuration.AppConfig.CommentableCollection<FrameworkElement>
     {
         //- @BasePath -//
         [ConfigurationProperty("basePath", IsRequired = true)]

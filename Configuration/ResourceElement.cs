@@ -3,7 +3,7 @@ using System.Configuration;
 //+
 namespace Nalarium.Client.Configuration
 {
-    public class ResourceElement : Nalarium.Configuration.CommentableElement
+    public class ResourceElement : Nalarium.Configuration.AppConfig.CommentableElement
     {
         //- @Path -//
         [ConfigurationProperty("path", IsRequired = true)]

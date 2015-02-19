@@ -3,7 +3,7 @@ using System.Configuration;
 //+
 namespace Nalarium.Client.Configuration
 {
-    public class ResourceCollection : Nalarium.Configuration.CommentableCollection<ResourceElement>
+    public class ResourceCollection : Nalarium.Configuration.AppConfig.CommentableCollection<ResourceElement>
     {
         //- @Tracing -//
         [ConfigurationProperty("tracing", IsRequired = true)]

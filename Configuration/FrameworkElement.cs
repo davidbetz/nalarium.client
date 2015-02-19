@@ -1,9 +1,10 @@
-﻿using System;
+﻿using Nalarium.Configuration.AppConfig;
+using System;
 using System.Configuration;
 //+
 namespace Nalarium.Client.Configuration
 {
-    public class FrameworkElement : Nalarium.Configuration.CommentableElement
+    public class FrameworkElement : CommentableElement
     {
         //- @Resources -//
         [ConfigurationProperty("resources")]

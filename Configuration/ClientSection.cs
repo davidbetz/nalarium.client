@@ -15,7 +15,7 @@ namespace Nalarium.Client.Configuration
     /// <summary>
     /// Provides access to the configuration section.
     /// </summary>
-    public class ClientSection : Nalarium.Configuration.ConfigurationSection
+    public class ClientSection : Nalarium.Configuration.AppConfig.ConfigurationSection
     {
         //<client>
         //    <frameworks basePath="~/Content/Lib">
